@@ -1,0 +1,11 @@
+est包没用了。可以删掉。
+net包里。可用包有 core里面封装好了。一般不动
+                  customnet。里面写结构体对应类。一个请求一个类
+                             TestServer。是一个简易的测试服务器
+                             VaCustomLogin.是请求类。        
+
+ 
+                  protocal。里面定义结构体
+
+                  sum包。里面放加密盒解密相关代码
+                  net包。目前还无用处

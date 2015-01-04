@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+ 
+    >
+   <include layout="@layout/title"/>
+   <LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="0dip"
+    android:layout_weight="0.7"
+    android:orientation="vertical" 
+    android:background="#FF30353A"
+    >
+   </LinearLayout>
+
+     <LinearLayout
+         android:id="@+id/rulepre_ll"
+         android:layout_width="match_parent"
+         android:layout_height="0dip"
+         android:layout_weight="4.0"
+         android:orientation="vertical" >
+            <fragment 
+                android:id="@+id/rulepre_fgt"
+                android:name="com.wh.ws.ui.VideoFgt"
+                android:layout_height="fill_parent"
+                android:layout_width="fill_parent"
+                />
+             />
+     </LinearLayout>
+
+     <LinearLayout 
+         android:id="@+id/rulepre_rule"
+    android:layout_width="match_parent"
+    android:layout_height="0dip"
+    android:layout_weight="1"
+    android:orientation="vertical"
+    
+    android:background="#FF30353A" 
+    >
+   </LinearLayout>
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="0dip"
+         android:layout_weight="0.7"
+         android:gravity="bottom"
+         android:orientation="horizontal"
+         >
+         <ImageButton
+             android:id="@+id/rulepre_ibtn_eidt"
+             android:layout_width="0dip"
+             android:layout_height="fill_parent"
+             android:layout_weight="1"
+             android:background="@drawable/rulepre__btn"
+             android:src="@drawable/ruelepra_edit"
+             />
+          <ImageButton
+             android:id="@+id/rulepre_ibtn_play" 
+             android:layout_width="0dip"
+             android:layout_height="fill_parent"
+             android:layout_weight="1"
+              android:background="@drawable/rulepre__btn"
+             android:src="@drawable/rulepre_play"
+             />
+           <ImageButton 
+             android:id="@+id/rulepre_ibtn_delete" 
+             android:layout_width="0dip"
+             android:layout_height="fill_parent"
+             android:layout_weight="1"
+             android:background="@drawable/rulepre__btn"
+             android:src="@drawable/rulepre_delete"
+             />
+         
+         
+         
+   </LinearLayout>
+</LinearLayout>

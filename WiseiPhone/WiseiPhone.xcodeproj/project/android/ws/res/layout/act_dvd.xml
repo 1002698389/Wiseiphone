@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFE4E4E4"
+    android:orientation="vertical" >
+
+    <include layout="@layout/title" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dip"
+        android:background="#FFCCCCCC"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dip"
+            android:text="设备管理"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dip"
+            android:text="编辑"
+            android:textColor="#FF007EC6"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dip"
+        android:background="@color/whiles"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="0dip"
+            android:layout_weight="1" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dip"
+                android:text="别名"
+                android:textColor="@color/black" />
+
+            <EditText
+                android:layout_width="200dip"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="99dip"
+                android:background="@drawable/eidit_shape1"
+                android:hint="新设备" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="2dip"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="5dip"
+                android:background="#FFE4E4E4" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="0dip"
+            android:layout_weight="1" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dip"
+                android:text="注册类型"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <EditText
+                android:layout_width="200dip"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="99dip"
+                android:background="@drawable/eidit_shape1"
+                android:hint="注册类型"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="2dip"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="5dip"
+                android:background="#FFE4E4E4" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="0dip"
+            android:layout_weight="1" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dip"
+                android:text="地址"
+                android:textColor="@color/black" />
+
+            <EditText
+                android:layout_width="200dip"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="99dip"
+                android:background="@drawable/eidit_shape1"
+                android:hint="服务器地址"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="2dip"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="5dip"
+                android:background="#FFE4E4E4" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="0dip"
+            android:layout_weight="1" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dip"
+                android:text="端口"
+                android:textColor="@color/black" />
+
+            <EditText
+                android:layout_width="200dip"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="99dip"
+                android:background="@drawable/eidit_shape1"
+                android:hint="设备标识"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="2dip"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="5dip"
+                android:background="#FFE4E4E4" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="0dip"
+            android:layout_weight="1" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dip"
+                android:text="用户名"
+                android:textColor="@color/black" />
+
+            <EditText
+                android:layout_width="300dip"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="99dip"
+                android:background="@drawable/eidit_shape1"
+                android:hint="admin"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="2dip"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="5dip"
+                android:background="#FFE4E4E4" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="0dip"
+            android:layout_weight="1" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dip"
+                android:text="密码"
+                android:textColor="@color/black" />
+
+            <EditText
+                android:layout_width="200dip"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="99dip"
+                android:background="@drawable/eidit_shape1"
+                android:hint="12356"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="2dip"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="5dip"
+                android:background="#FFE4E4E4" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="0dip"
+            android:layout_weight="1" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dip"
+                android:text="通道数"
+                android:textColor="@color/black" />
+
+            <EditText
+                android:layout_width="200dip"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="99dip"
+                android:background="@drawable/eidit_shape1"
+                android:hint="1"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="2dip"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="5dip"
+                android:background="#FFE4E4E4" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <SearchView
+        android:id="@+id/searchView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.26" >
+    </SearchView>
+
+</LinearLayout>

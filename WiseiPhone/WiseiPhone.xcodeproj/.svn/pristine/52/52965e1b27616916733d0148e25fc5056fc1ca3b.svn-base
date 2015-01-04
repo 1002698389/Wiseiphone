@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+ 
+    >
+   <include layout="@layout/title"/>
+   <LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="0dip"
+    android:layout_weight="1"
+    android:orientation="vertical" 
+    android:background="#FF30353A"
+    >
+   </LinearLayout>
+     <LinearLayout 
+     android:id="@+id/act_center_video"
+    android:layout_width="match_parent"
+    android:layout_height="0dip"
+    android:layout_weight="5"
+    android:orientation="vertical" 
+    >
+
+    <com.wh.ws.ui.MyVideo
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent" />
+
+   </LinearLayout>
+     <LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="0dip"
+    android:layout_weight="0.5"
+    android:orientation="vertical" 
+    android:gravity="center"
+    >
+    <SeekBar 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dip"
+        
+        />
+   </LinearLayout>
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="0dip"
+         android:layout_weight="0.7"
+         android:gravity="bottom"
+         android:orientation="vertical" >
+  <include layout="@layout/video_contral"/>
+   </LinearLayout>
+</LinearLayout>

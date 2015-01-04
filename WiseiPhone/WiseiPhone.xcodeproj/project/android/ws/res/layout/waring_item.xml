@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+ 
+    >
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical" >
+
+    <ImageView
+        android:id="@+id/info_item_iv"
+        android:layout_width="70dip"
+        android:layout_height="70dip"
+        android:scaleType="fitXY"
+        android:src="@drawable/camera" />
+
+    <ImageView
+        android:id="@+id/info_item_iv_edit"
+        android:layout_width="20dip"
+        android:layout_height="20dip"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="13dip"
+        android:src="@drawable/feel_ib" />
+    
+    <LinearLayout
+        android:layout_width="180dip"
+        android:layout_height="70dip"
+        android:layout_toRightOf="@+id/info_item_iv"
+        android:orientation="vertical"
+        android:layout_marginLeft="10dip"
+         >
+     <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="0dip"
+           android:layout_weight="1"
+           android:layout_toRightOf="@+id/info_item_iv"
+           android:orientation="horizontal"
+           android:gravity="bottom"
+           
+             >
+         <TextView 
+             android:id="@+id/info_item_tv_name"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:textSize="18sp"
+             android:text="警戒线"
+             android:textColor="@android:color/black"
+             />    
+         
+     </LinearLayout>
+          <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="0dip"
+           android:layout_weight="1"
+           android:orientation="horizontal"
+             >
+          <TextView 
+              android:layout_marginTop="2dip"
+             android:id="@+id/info_item_tv_address"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:textSize="14sp"
+             android:text="摄像头1"
+             />  
+                     <TextView 
+                         android:layout_marginTop="2dip"
+             android:id="@+id/info_item_tv_date"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:textSize="14sp"
+             android:text="2014-04-02 19:24"
+             />  
+     </LinearLayout>   
+        
+        
+        
+        
+    </LinearLayout>
+
+
+
+</RelativeLayout>
+
+</LinearLayout>

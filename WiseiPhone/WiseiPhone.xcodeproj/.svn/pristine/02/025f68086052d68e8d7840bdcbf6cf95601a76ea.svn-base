@@ -1,0 +1,126 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+ <include
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     layout="@layout/title" />
+
+ <FrameLayout 
+     android:layout_width="match_parent" 
+     android:layout_height="match_parent">
+     <LinearLayout android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:background="#FF30353A"
+         android:orientation="vertical"
+         >
+         <LinearLayout 
+             android:layout_width="match_parent"
+             android:layout_weight="0.1"
+             android:layout_height="0dip"
+             android:orientation="vertical"
+             ></LinearLayout>
+           <com.wh.ws.ui.BaseFragmentManager
+             android:id="@+id/main_center"
+             android:layout_width="match_parent"
+             android:layout_height="0dip"
+             android:layout_weight="0.6"
+             android:background="#FF503A3A"
+             android:orientation="vertical"
+              >
+           </com.wh.ws.ui.BaseFragmentManager>
+
+              <LinearLayout 
+                  android:id="@+id/main_buttom_ll_contral"
+             android:layout_width="match_parent"
+             android:layout_height="0dip"
+             android:layout_weight="0.2"
+             android:orientation="vertical"
+             android:gravity="center"
+             >
+                <TextView android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="....."
+                    
+                    android:textColor="@color/whiles"
+                    android:textSize="30sp"
+                    />  
+                  
+                  
+                  
+              </LinearLayout>
+              
+              
+     <HorizontalScrollView
+               android:layout_width="wrap_content"
+             android:layout_height="0dip"
+             android:layout_weight="0.1"
+         
+         
+         >
+
+            <LinearLayout
+                android:id="@+id/button_ll_btns"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="#FF202327"
+                android:orientation="horizontal" >
+
+                 <ImageButton
+                   android:layout_height="wrap_content"
+                   android:layout_width="70dip"
+                   android:scaleType="fitCenter"
+                   android:background="@color/alphl"
+                   android:src="@drawable/button_play"
+                  />
+              <ImageButton
+                   android:layout_height="wrap_content"
+                   android:layout_width="70dip"
+                   android:scaleType="fitCenter"
+                   android:background="@color/alphl"
+                   android:src="@drawable/button_camera"
+                  />
+
+              <ImageButton
+                  android:layout_height="wrap_content"
+                  android:layout_width="70dip"
+                  android:background="@color/alphl"
+                  android:scaleType="fitCenter"
+                  android:src="@drawable/button_video" />
+  
+                 <ImageButton
+                   android:layout_height="wrap_content"
+                   android:layout_width="70dip"
+                   android:scaleType="fitCenter"
+                   android:background="@color/alphl"
+                   android:src="@drawable/button_contral"
+                  />  
+                 <ImageButton
+                
+                   android:background="@color/alphl"
+                      android:layout_height="wrap_content"
+                   android:layout_width="70dip"
+                   android:scaleType="fitCenter"
+                   android:src="@drawable/button_zn"
+                  />  
+                 <ImageButton
+                   android:layout_height="wrap_content"
+                          android:layout_width="70dip"
+                   android:background="@color/alphl"
+                   android:scaleType="fitCenter"
+                   android:src="@drawable/button_smart"
+                  />  
+                
+                
+                
+            </LinearLayout>
+         </HorizontalScrollView>
+     </LinearLayout>
+     
+ </FrameLayout>
+ 
+
+</LinearLayout>

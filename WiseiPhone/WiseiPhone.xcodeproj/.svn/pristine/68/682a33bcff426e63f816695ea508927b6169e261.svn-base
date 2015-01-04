@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    <LinearLayout
+        android:id="@+id/video_contral_item"
+        android:layout_width="match_parent"
+        android:layout_height="55dip"
+        android:background="@color/whiles"
+        android:orientation="horizontal" >
+        <ImageButton
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:src="@drawable/button_camera"
+            android:background="@drawable/ivideo_camera"
+             />
+
+        <ImageButton
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:src="@drawable/video_cut"
+            android:background="@drawable/ivideo_camera"
+          />
+
+        <ImageButton
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+                android:background="@drawable/ivideo_camera"
+                android:src="@drawable/ivdeo_play"
+       />
+<ImageButton
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+              android:background="@drawable/ivideo_camera"
+              android:src="@drawable/ivideo_voice"
+            />
+        <ImageButton
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:src="@drawable/ivideo_big"
+              android:background="@drawable/ivideo_camera"
+          />
+           
+    </LinearLayout>
+    
+</LinearLayout>

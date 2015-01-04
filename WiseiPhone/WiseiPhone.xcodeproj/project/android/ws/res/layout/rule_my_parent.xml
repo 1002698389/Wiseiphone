@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dip"
+    android:background="#FFE4E4E4" >
+
+    <TextView
+        android:id="@+id/rule_parent_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dip"
+        android:text="大门人口统计"
+        android:textColor="@android:color/black"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:id="@+id/rule_parent_imgbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:layout_marginLeft="60dip"
+        android:layout_alignParentRight="true"
+        android:background="@color/alphl"
+        android:src="@drawable/rule_arrow_child"
+        android:focusable="false"
+        />
+
+</RelativeLayout>

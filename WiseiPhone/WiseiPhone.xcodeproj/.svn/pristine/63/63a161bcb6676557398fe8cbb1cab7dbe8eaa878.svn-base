@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="#FFDDDDDD"
+    >
+ <RelativeLayout 
+     android:id="@+id/rule_item_step1"
+     android:layout_width="match_parent"
+     android:layout_height="0dip" 
+     android:layout_weight="1"
+     android:background="@drawable/feel_item_click"
+     android:clickable="true"
+     >
+     <TextView 
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="大门人流统计"
+         android:layout_centerVertical="true"
+         android:layout_marginLeft="10dip"
+         android:textColor="#FF000000"
+         />
+     <TextView 
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="选择规则类型"
+         android:layout_alignParentRight="true"
+         android:layout_centerVertical="true"
+         android:layout_marginRight="10dip"
+         android:textSize="18sp"
+         android:textColor="#FF4d9ccd"
+         />
+     
+ </RelativeLayout>
+ <RelativeLayout 
+     android:id="@+id/rule_item_step2"
+     android:layout_width="match_parent"
+     android:layout_height="0dip" 
+     android:layout_weight="1"
+     android:background="@drawable/feel_item_click"
+      android:clickable="true"
+     >
+     
+    
+          <LinearLayout 
+         android:layout_height="wrap_content"
+         android:layout_width="wrap_content"
+         android:layout_centerVertical="true"
+         android:orientation="horizontal"
+         >
+         <ImageView android:layout_height="wrap_content"
+             android:layout_width="wrap_content"
+             android:src="@drawable/img_type_r"
+             android:layout_marginLeft="10dip"
+               android:visibility="gone"
+             />
+         <ImageView android:layout_height="wrap_content"
+             android:layout_width="wrap_content"
+             android:src="@drawable/img_type_cut"
+             android:visibility="gone"
+               android:layout_marginLeft="5dip"
+             />
+         <ImageView android:layout_height="wrap_content"
+             android:layout_width="wrap_content"
+             android:src="@drawable/img_type_l"
+                  android:layout_marginLeft="5dip"
+                  android:visibility="gone"
+             />
+         <ImageView android:layout_height="wrap_content"
+             android:layout_width="wrap_content"
+             android:src="@drawable/img_type_warn"
+             android:layout_marginLeft="5dip"
+             android:visibility="gone"
+             />
+         
+     </LinearLayout>
+      <TextView 
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="选择处理方案"
+         android:layout_alignParentRight="true"
+         android:layout_centerVertical="true"
+         android:layout_marginRight="10dip"
+         android:textSize="18sp"
+         android:textColor="#FF4d9ccd"
+         />
+ </RelativeLayout>
+ <RelativeLayout 
+          android:id="@+id/rule_item_step3"
+     android:layout_width="match_parent"
+     android:layout_height="0dip" 
+     android:layout_weight="1"
+     android:background="@drawable/feel_item_click"
+      android:clickable="true"
+      android:gravity="center_vertical"
+     >
+
+     <TextView 
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="保存"
+         android:textSize="18sp"
+         android:layout_alignParentRight="true"
+         android:layout_marginLeft="10dip"
+         android:textColor="#FF4d9ccd"
+         android:layout_marginRight="10dip"
+         />
+    
+     
+ </RelativeLayout>
+    
+</LinearLayout>

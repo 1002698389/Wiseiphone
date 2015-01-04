@@ -1,0 +1,255 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/chooise_gn"
+    android:layout_width="match_parent"
+    android:layout_height="230dip"
+    android:background="#FF1D2839"
+    android:paddingBottom="20dip"
+    android:orientation="vertical" 
+     
+    >
+ 
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+  
+         >
+        <FrameLayout 
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center"
+            >
+
+            <ImageButton
+                android:id="@+id/dialog_ib_yl"
+                android:layout_width="100dip"
+                android:layout_height="100dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/btn_click"
+                android:scaleType="fitCenter"
+                android:src="@drawable/img_yl" />
+
+            <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="实时预览"
+                android:textColor="@color/whiles"
+                android:textSize="16sp"
+                android:layout_marginTop="3dip"
+                android:layout_gravity="bottom|center_horizontal"
+                />
+            
+        </FrameLayout>
+         <FrameLayout 
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center"
+            >
+
+            <ImageButton
+                android:id="@+id/dialog_ib_vmanager"
+                android:layout_width="100dip"
+                android:layout_height="100dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/btn_click"
+                android:scaleType="fitCenter"
+                android:src="@drawable/img_video" />
+
+            <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="录像管理"
+                android:textColor="@color/whiles"
+                android:textSize="16sp"
+                android:layout_marginTop="3dip"
+                android:layout_gravity="bottom|center_horizontal"
+                />
+            
+        </FrameLayout>
+          <FrameLayout 
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center"
+            >
+
+         
+             <ImageButton
+                   android:id="@+id/dialog_ib_warms"
+                android:layout_width="100dip"
+                android:layout_height="100dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/btn_click"
+                android:scaleType="fitCenter"
+                android:src="@drawable/img_warm" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|center_horizontal"
+                android:layout_marginTop="3dip"
+                android:text="报警信息"
+                android:textColor="@color/whiles"
+                android:textSize="16sp" />
+            
+        </FrameLayout>
+                <FrameLayout 
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center"
+            >
+
+            <ImageButton
+                android:id="@+id/dialog_ib_ivm"
+                android:layout_width="100dip"
+                android:layout_height="100dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/btn_click"
+                android:scaleType="fitCenter"
+                android:src="@drawable/img_ivm" />
+
+            <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="图像管理"
+                android:textColor="@color/whiles"
+                android:textSize="16sp"
+                android:layout_marginTop="3dip"
+                android:layout_gravity="bottom|center_horizontal"
+                />
+            
+        </FrameLayout>
+    </LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dip"
+    android:layout_weight="1"
+    android:orientation="horizontal" >
+
+        <FrameLayout 
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center"
+            >
+
+           
+                <ImageButton
+                      android:id="@+id/dialog_ib_feel"
+                android:layout_width="100dip"
+                android:layout_height="100dp"
+                android:layout_gravity="center_horizontal"
+                android:scaleType="fitXY"
+                android:background="@drawable/btn_click"
+                android:src="@drawable/img_feel" />
+
+            <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="用户体验"
+                android:textColor="@color/whiles"
+                android:textSize="16sp"
+                android:layout_marginTop="3dip"
+                android:layout_gravity="bottom|center_horizontal"
+                />
+            
+        </FrameLayout>
+         <FrameLayout 
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center"
+            >
+
+          <ImageButton
+                android:id="@+id/dialog_ib_zn"
+                android:layout_width="100dip"
+                android:layout_height="100dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/btn_click"
+                android:scaleType="fitCenter"
+                android:src="@drawable/img_zn" />
+
+            <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="智能设置"
+                android:textColor="@color/whiles"
+                android:textSize="16sp"
+                android:layout_marginTop="3dip"
+                android:layout_gravity="bottom|center_horizontal"
+                />
+            
+        </FrameLayout>
+          <FrameLayout 
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center"
+            >
+
+         <ImageButton
+               android:id="@+id/dialog_ib_set"
+                android:layout_width="100dip"
+                android:layout_height="100dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/btn_click"
+                android:scaleType="fitCenter"
+                android:src="@drawable/img_set" />
+
+            <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="系统设置"
+                android:textColor="@color/whiles"
+                android:textSize="16sp"
+                android:layout_marginTop="3dip"
+                android:layout_gravity="bottom|center_horizontal"
+                />
+            
+        </FrameLayout>
+              <FrameLayout 
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center"
+            >
+
+         <ImageButton
+               android:id="@+id/dialog_ib_other"
+                android:layout_width="100dip"
+                android:layout_height="100dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/btn_click"
+                android:scaleType="fitCenter"
+                android:src="@drawable/img_set" />
+
+            <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="其他设置"
+                android:textColor="@color/whiles"
+                android:textSize="16sp"
+                android:layout_marginTop="3dip"
+                android:layout_gravity="bottom|center_horizontal"
+                />
+            
+        </FrameLayout>
+    </LinearLayout>
+   
+
+</LinearLayout>

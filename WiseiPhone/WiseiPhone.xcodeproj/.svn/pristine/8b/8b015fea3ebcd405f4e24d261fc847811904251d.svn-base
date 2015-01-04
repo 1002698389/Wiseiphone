@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="40dip"
+    android:background="@color/whiles"
+    android:orientation="horizontal" >
+
+    <ImageButton	
+        android:id="@+id/rule_child_imgbtn1"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:focusable="false"
+        android:background="@color/alphl"
+        android:src="@drawable/btn_play" />
+
+
+
+    <ImageButton
+        android:id="@+id/rule_child_imgbtn2"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:focusable="false"
+        android:background="@color/alphl"
+        android:src="@drawable/btn_delete" />
+
+    <ImageButton
+        android:id="@+id/rule_child_imgbtn3"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:focusable="false"
+        android:background="@color/alphl"
+        android:src="@drawable/btn_eidt" />
+
+</LinearLayout>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFE4E4E4"
+    android:orientation="vertical" >
+
+    <include layout="@layout/title" />
+
+    <RelativeLayout
+        android:id="@+id/act_video_rl_time_star"
+        android:layout_width="match_parent"
+        android:layout_height="40dip"
+        android:background="@drawable/click_item"
+        android:clickable="true"
+        android:onClick="click" >
+
+        <TextView
+            android:id="@+id/ac_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dip"
+            android:padding="3dip"
+            android:text="起" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="25dip"
+            android:layout_toRightOf="@+id/ac_tv"
+            android:padding="3dip"
+            android:text="2013-3-2 12:23:03"
+            android:textColor="#3B99D2" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="2dip"
+        android:background="@android:color/darker_gray" />
+
+    <RelativeLayout
+        android:id="@+id/act_video_rl_time_end"
+        android:layout_width="match_parent"
+        android:layout_height="40dip"
+        android:background="@drawable/click_item"
+        android:clickable="true" >
+
+        <TextView
+            android:id="@+id/ac_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dip"
+            android:padding="3dip"
+            android:text="止" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="25dip"
+            android:layout_toRightOf="@+id/ac_tv"
+            android:padding="3dip"
+            android:text="2013-3-2 12:23:03"
+            android:textColor="#3B99D2" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="4"
+        android:orientation="vertical" >
+
+        <ExpandableListView
+            android:id="@+id/act_item_epd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+        </ExpandableListView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/act_item_ll"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="0.5"
+        android:background="@drawable/list_item_click"
+        android:clickable="true"
+        android:gravity="center" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="开始播放"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+</LinearLayout>

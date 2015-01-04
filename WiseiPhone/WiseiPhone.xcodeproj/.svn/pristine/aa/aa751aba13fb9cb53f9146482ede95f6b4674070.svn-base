@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" 
+    >
+
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="50dp"
+    android:background="#FFCBCFD5"
+    android:gravity="center_vertical" 
+    android:visibility="invisible"
+    >
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="焦距"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dip"
+        android:textColor="#FF000000"
+        />
+    <ImageView
+        android:id="@+id/iv"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:src="@drawable/foucs_start"
+        android:layout_toRightOf="@+id/tv"
+        />
+
+        <SeekBar
+            android:id="@+id/pb"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="200dip"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/iv" />
+    <ImageView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:src="@drawable/focus_end"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="14dip"
+        />
+</RelativeLayout>
+
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="50dp"
+    android:background="#FFCBCFD5"
+    android:gravity="center_vertical"
+        android:visibility="gone"
+     >
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="聚焦"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dip"
+        android:textColor="#FF000000"
+        />
+    <ImageView
+        android:id="@+id/iv"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:src="@drawable/jfoucs_star"
+        android:layout_toRightOf="@+id/tv"
+        />
+
+        <SeekBar
+            android:id="@+id/pb"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="200dip"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/iv" />
+    <ImageView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:src="@drawable/jfoucs_end"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="14dip"
+        />
+</RelativeLayout>
+
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="50dp"
+    android:background="#FFCBCFD5"
+    android:gravity="center_vertical"
+        android:visibility="gone"
+     >
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="光圈"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dip"
+        android:textColor="#FF000000"
+        />
+    <ImageView
+        android:id="@+id/iv"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:src="@drawable/circle_star"
+        android:layout_toRightOf="@+id/tv"
+        />
+
+        <SeekBar
+            android:id="@+id/pb"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="200dip"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/iv" />
+    <ImageView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:src="@drawable/circle_end"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="14dip"
+        />
+</RelativeLayout>
+
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="60dip"
+    android:id="@+id/item_contral_one"
+     >
+
+    <FrameLayout
+        android:layout_width="0dip"
+        android:layout_weight="0.2"
+        android:layout_height="match_parent"
+        android:background="@drawable/contral_bg_fra" >
+
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="3dip"
+        android:background="@drawable/contral_bg"
+        android:src="@drawable/contral_refresh" />
+
+    </FrameLayout>
+    <FrameLayout
+        android:layout_width="0dip"
+        android:layout_weight="0.2"
+        android:layout_height="match_parent"
+        android:background="@drawable/contral_bg_fra" >
+
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="3dip"
+        android:background="@drawable/contral_bg"
+        android:src="@drawable/contral_focus" />
+
+    </FrameLayout>
+    <FrameLayout
+        android:layout_width="0dip"
+        android:layout_weight="0.2"
+        android:layout_height="match_parent"
+        android:background="@drawable/contral_bg_fra" >
+
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="3dip"
+        android:background="@drawable/contral_bg"
+        android:src="@drawable/contral_jfocus" />
+
+    </FrameLayout>
+    <FrameLayout
+        android:layout_width="0dip"
+        android:layout_weight="0.2"
+        android:layout_height="match_parent"
+        android:background="@drawable/contral_bg_fra" >
+
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="3dip"
+        android:background="@drawable/contral_bg"
+        android:src="@drawable/contral_circle" />
+
+    </FrameLayout>
+    <FrameLayout
+        android:layout_width="0dip"
+        android:layout_weight="0.2"
+        android:layout_height="match_parent"
+        android:background="@drawable/contral_bg_fra" >
+
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="3dip"
+        android:background="@drawable/contral_bg"
+        android:src="@drawable/contral_point" />
+
+    </FrameLayout>
+</LinearLayout>
+</LinearLayout>

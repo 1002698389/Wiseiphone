@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFE4E4E4"
+    android:orientation="vertical" >
+
+    <include layout="@layout/title" />
+
+    <LinearLayout
+        android:id="@+id/act_set_item"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFFFF"
+        android:layout_marginTop="45dip"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="30dip"
+            android:layout_marginTop="2dip"
+            android:background="@drawable/feel_item_click"
+            android:clickable="true" >
+
+            <ImageView
+                android:id="@+id/item_my_iv"
+                android:layout_width="30dip"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="5dip"
+                android:src="@drawable/set_img_dvd" />
+
+            <TextView
+                android:id="@+id/item_my_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="16dip"
+                android:layout_toRightOf="@+id/item_my_iv"
+                android:text="设备管理"
+                android:textColor="@android:color/black" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="30dip"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="15dip"
+                android:src="@drawable/img_arrow" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dip"
+                android:layout_marginLeft="16dip"
+                android:layout_alignParentBottom="true"
+                android:layout_toRightOf="@+id/item_my_iv"
+                android:background="#FFCCCCCC" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="30dip"
+            android:layout_marginTop="2dip"
+            android:background="@drawable/feel_item_click"
+            android:clickable="true" >
+
+            <ImageView
+                android:id="@+id/item_my_iv"
+                android:layout_width="30dip"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="5dip"
+                android:src="@drawable/set_img_heat" />
+
+            <TextView
+                android:id="@+id/item_my_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="16dip"
+                android:layout_toRightOf="@+id/item_my_iv"
+                android:text="我的收藏"
+                android:textColor="@android:color/black" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="30dip"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="15dip"
+                android:src="@drawable/img_arrow" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dip"
+                 android:layout_alignParentBottom="true"
+                android:layout_marginLeft="16dip"
+                android:layout_toRightOf="@+id/item_my_iv"
+                android:background="#FFCCCCCC" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="30dip"
+            android:layout_marginTop="2dip"
+            android:background="@drawable/feel_item_click"
+            android:clickable="true" >
+
+            <ImageView
+                android:id="@+id/item_my_iv"
+                android:layout_width="30dip"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="5dip"
+                android:src="@drawable/set_img_help" />
+
+            <TextView
+                android:id="@+id/item_my_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="16dip"
+                android:layout_toRightOf="@+id/item_my_iv"
+                android:text="密码设置"
+                android:textColor="@android:color/black" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="30dip"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="15dip"
+                android:src="@drawable/img_arrow" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dip"
+                  android:layout_alignParentBottom="true"
+                android:layout_marginLeft="16dip"
+                android:layout_toRightOf="@+id/item_my_iv"
+                android:background="#FFCCCCCC" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="30dip"
+            android:layout_marginTop="2dip"
+            android:background="@drawable/feel_item_click"
+            android:clickable="true" >
+
+            <ImageView
+                android:id="@+id/item_my_iv"
+                android:layout_width="30dip"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="5dip"
+                android:src="@drawable/set_img_about" />
+
+            <TextView
+                android:id="@+id/item_my_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="16dip"
+                android:layout_toRightOf="@+id/item_my_iv"
+                android:text="使用帮助"
+                android:textColor="@android:color/black" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="30dip"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="15dip"
+                android:src="@drawable/img_arrow" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dip"
+                  android:layout_alignParentBottom="true"
+                android:layout_marginLeft="16dip"
+                android:layout_toRightOf="@+id/item_my_iv"
+                android:background="#FFCCCCCC" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="30dip"
+            android:layout_marginTop="2dip"
+            android:background="@drawable/feel_item_click"
+            android:clickable="true" >
+
+            <ImageView
+                android:id="@+id/item_my_iv"
+                android:layout_width="30dip"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="5dip"
+                android:src="@drawable/feel_img" />
+
+            <TextView
+                android:id="@+id/item_my_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="16dip"
+                android:layout_toRightOf="@+id/item_my_iv"
+                android:text="关于"
+                android:textColor="@android:color/black" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="30dip"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="15dip"
+                android:src="@drawable/img_arrow" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dip"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="16dip"
+                android:layout_toRightOf="@+id/item_my_iv"
+                android:background="#FFCCCCCC" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

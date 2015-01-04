@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+ 
+    >
+   <include layout="@layout/title"/>
+   
+   <LinearLayout 
+       android:layout_height="45dip"
+       android:layout_width="fill_parent"	
+       android:background="#FFCCCCCC"
+       >
+       <TextView 
+           android:layout_height="wrap_content"
+           android:layout_width="wrap_content"
+           android:text="视频教程"
+           android:textSize="20sp"
+           android:layout_gravity="center_vertical"
+           android:layout_marginLeft="30dip"
+           />
+   </LinearLayout>
+   
+   <LinearLayout
+       android:id="@+id/act_feel_item"
+       android:layout_width="fill_parent"
+       android:layout_height="fill_parent"
+       android:layout_weight="14.69"
+       android:background="#FFE4E4E4" 
+       android:orientation="vertical"
+       >
+
+  <RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height="50dp"
+       android:clickable="true"
+      android:layout_marginLeft="30dip"
+      android:background="@drawable/feel_item_click"
+      android:layout_marginTop="2dip"
+     
+       >
+
+    <ImageView
+        android:id="@+id/item_my_iv"
+        android:layout_width="30dip"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="5dip"
+        android:src="@drawable/feel_img" />
+
+    <TextView
+        android:id="@+id/item_my_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="16dip"
+        android:layout_toRightOf="@+id/item_my_iv"
+        android:text="偷到监测1"
+        android:textColor="@android:color/black" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="30dip"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="15dip"
+        android:src="@drawable/feel_ib" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:layout_below="@+id/item_my_iv"
+        android:layout_toRightOf="@+id/item_my_iv"
+        android:background="#FFCCCCCC"
+        android:layout_marginLeft="16dip"
+         />
+
+</RelativeLayout>
+<RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height="50dp"
+       android:clickable="true"
+      android:layout_marginLeft="30dip"
+      android:background="@drawable/feel_item_click"
+      android:layout_marginTop="2dip"
+       >
+
+    <ImageView
+        android:id="@+id/item_my_iv"
+        android:layout_width="30dip"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="5dip"
+        android:src="@drawable/feel_img" />
+
+    <TextView
+        android:id="@+id/item_my_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="16dip"
+        android:layout_toRightOf="@+id/item_my_iv"
+        android:text="偷到监测2"
+        android:textColor="@android:color/black" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="30dip"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="15dip"
+        android:src="@drawable/feel_ib" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:layout_below="@+id/item_my_iv"
+        android:layout_toRightOf="@+id/item_my_iv"
+        android:background="#FFCCCCCC"
+        android:layout_marginLeft="16dip"
+         />
+
+</RelativeLayout>
+<RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height="50dp"
+       android:clickable="true"
+      android:layout_marginLeft="30dip"
+      android:background="@drawable/feel_item_click"
+      android:layout_marginTop="2dip"
+       >
+
+    <ImageView
+        android:id="@+id/item_my_iv"
+        android:layout_width="30dip"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="5dip"
+        android:src="@drawable/feel_img" />
+
+    <TextView
+        android:id="@+id/item_my_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="16dip"
+        android:layout_toRightOf="@+id/item_my_iv"
+        android:text="偷到监测3"
+        android:textColor="@android:color/black" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="30dip"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="15dip"
+        android:src="@drawable/feel_ib" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:layout_below="@+id/item_my_iv"
+        android:layout_toRightOf="@+id/item_my_iv"
+        android:background="#FFCCCCCC"
+        android:layout_marginLeft="16dip"
+         />
+
+</RelativeLayout>
+<RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height="50dp"
+       android:clickable="true"
+      android:layout_marginLeft="30dip"
+      android:background="@drawable/feel_item_click"
+      android:layout_marginTop="2dip"
+       >
+
+    <ImageView
+        android:id="@+id/item_my_iv"
+        android:layout_width="30dip"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="5dip"
+        android:src="@drawable/feel_img" />
+
+    <TextView
+        android:id="@+id/item_my_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="16dip"
+        android:layout_toRightOf="@+id/item_my_iv"
+        android:text="烟火监测"
+        android:textColor="@android:color/black" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="30dip"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="15dip"
+        android:src="@drawable/feel_ib" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:layout_below="@+id/item_my_iv"
+        android:layout_toRightOf="@+id/item_my_iv"
+        android:background="#FFCCCCCC"
+        android:layout_marginLeft="16dip"
+         />
+
+</RelativeLayout>
+<RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height="50dp"
+       android:clickable="true"
+      android:layout_marginLeft="30dip"
+      android:background="@drawable/feel_item_click"
+      android:layout_marginTop="2dip"
+       >
+
+    <ImageView
+        android:id="@+id/item_my_iv"
+        android:layout_width="30dip"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="5dip"
+        android:src="@drawable/feel_img" />
+
+    <TextView
+        android:id="@+id/item_my_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="16dip"
+        android:layout_toRightOf="@+id/item_my_iv"
+        android:text="遗留监测"
+        android:textColor="@android:color/black" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="30dip"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="15dip"
+        android:src="@drawable/feel_ib" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:layout_below="@+id/item_my_iv"
+        android:layout_toRightOf="@+id/item_my_iv"
+        android:background="#FFCCCCCC"
+        android:layout_marginLeft="16dip"
+         />
+
+</RelativeLayout>
+<RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height="50dp"
+       android:clickable="true"
+      android:layout_marginLeft="30dip"
+      android:background="@drawable/feel_item_click"
+      android:layout_marginTop="2dip"
+       >
+
+    <ImageView
+        android:id="@+id/item_my_iv"
+        android:layout_width="30dip"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="5dip"
+        android:src="@drawable/feel_img" />
+
+    <TextView
+        android:id="@+id/item_my_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="16dip"
+        android:layout_toRightOf="@+id/item_my_iv"
+        android:text="自动追踪"
+        android:textColor="@android:color/black" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="30dip"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="15dip"
+        android:src="@drawable/feel_ib" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:layout_below="@+id/item_my_iv"
+        android:layout_toRightOf="@+id/item_my_iv"
+        android:background="#FFCCCCCC"
+        android:layout_marginLeft="16dip"
+         />
+
+</RelativeLayout>
+<RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height="50dp"
+       android:clickable="true"
+      android:layout_marginLeft="30dip"
+      android:background="@drawable/feel_item_click"
+      android:layout_marginTop="2dip"
+       >
+
+    <ImageView
+        android:id="@+id/item_my_iv"
+        android:layout_width="30dip"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="5dip"
+        android:src="@drawable/feel_img" />
+
+    <TextView
+        android:id="@+id/item_my_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="16dip"
+        android:layout_toRightOf="@+id/item_my_iv"
+        android:text="徘徊监测"
+        android:textColor="@android:color/black" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="30dip"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="15dip"
+        android:src="@drawable/feel_ib" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:layout_below="@+id/item_my_iv"
+        android:layout_toRightOf="@+id/item_my_iv"
+        android:background="#FFCCCCCC"
+        android:layout_marginLeft="16dip"
+         />
+
+</RelativeLayout>
+<RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height="50dp"
+       android:clickable="true"
+      android:layout_marginLeft="30dip"
+      android:background="@drawable/feel_item_click"
+      android:layout_marginTop="2dip"
+       >
+
+    <ImageView
+        android:id="@+id/item_my_iv"
+        android:layout_width="30dip"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="5dip"
+        android:src="@drawable/feel_img" />
+
+    <TextView
+        android:id="@+id/item_my_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="16dip"
+        android:layout_toRightOf="@+id/item_my_iv"
+        android:text="人员计数"
+        android:textColor="@android:color/black" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="30dip"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="15dip"
+        android:src="@drawable/feel_ib" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:layout_below="@+id/item_my_iv"
+        android:layout_toRightOf="@+id/item_my_iv"
+        android:background="#FFCCCCCC"
+        android:layout_marginLeft="16dip"
+         />
+
+</RelativeLayout>
+
+   </LinearLayout>
+<Button 
+    android:id="@+id/act_feel_btn"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:padding="0dip"
+    android:text="开始播放"
+    android:textColor="@android:color/holo_blue_dark"
+    />
+</LinearLayout>

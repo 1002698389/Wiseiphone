@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="whiles">#FFFFFFFF</color>
+    <color name="alphl">#00000000</color>
+    <color name="title_bg">#FF007EC6</color>
+    <color name="bulue">#FF0A3B70</color>
+    <color name="apptn">#FF3F454C</color>
+    <color name="appts">#FF363b41</color>
+    <color name="btn_normal">#FFFFFFFF</color>
+    <color name="btn_selected">#FFFF9900</color>
+    <color name="feel_item_color">#FFCCCCCC</color>
+    <color name="vv_selected">#FFFF0000</color>  
+    <color name="vv_unselected">#FFFFFFFF</color>  
+    <color name="vv_none">#FF000000</color> 
+    <color name="panal_color">#FFE4E4E4</color>
+    <color name="text_line_bg">#FFE9EAEB</color>
+    <color name="click_item_selected">#FFD5C59F</color>
+    <color name="video_contral_selected">#FF202327</color>
+    <color name="video_contral_normal">#FF26292E</color>
+    <color name="black">#FF000000</color>
+    <color name="la_1">#FF222222</color>
+    <color name="la_2">#FFFFFFFF</color>
+    <color name="la_3">#FF131313</color> 
+    <color name="la_4">#FF16445F</color>
+        
+    
+    <color name="ruelepre_normal">#FF26292E</color>
+    <color name="ruelepre_selected">#FF202327</color>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dip"
+    android:background="@drawable/click_item" >
+
+    <ImageView
+        android:id="@+id/item_my_iv"
+        android:layout_width="30dip"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dip"
+        android:layout_marginTop="5dip"
+        android:src="@drawable/camera" />
+
+    <TextView
+        android:id="@+id/item_my_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="16dip"
+        android:layout_toRightOf="@+id/item_my_iv"
+        android:text="我的摄像头"
+        android:textColor="@android:color/black" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="30dip"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="15dip"
+        android:src="@drawable/feel_ib" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="2dip"
+        android:layout_below="@+id/item_my_iv"
+        android:background="@color/text_line_bg" />
+
+</RelativeLayout>
