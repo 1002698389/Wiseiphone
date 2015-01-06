@@ -87,6 +87,7 @@ extern NSMutableArray * idxpaths;
     NSMutableArray * widths;
     NSMutableArray *heights;
     NSMutableArray *channels;
+    NSMutableArray *curren;
 //    KxMovieViewController * video1;
 //    KxMovieViewController * video2;
 //    KxMovieViewController * video3;
@@ -119,6 +120,7 @@ extern NSMutableArray * idxpaths;
         movieurl=[NSMutableArray arrayWithCapacity:1];
         widths=[NSMutableArray arrayWithCapacity:1];
         heights=[NSMutableArray arrayWithCapacity:1];
+        
         if ([[[UIDevice currentDevice] systemVersion] floatValue]>=7.0)
         {
             y = 20;
