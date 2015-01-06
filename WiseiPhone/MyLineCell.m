@@ -14,14 +14,19 @@
 {
     self = [super initWithStyle:style reuseIdentifier:reuseIdentifier];
     if (self) {
-        self.btn=[[UIImageView alloc]initWithFrame:CGRectMake(200, 0, 22, 22)];
-        self.btn.backgroundColor=[UIColor redColor];
-        self.isinfo=[[UILabel alloc]init];
-        self.isinfo.frame=CGRectMake(200,5,80,30);
+        self.imageIcon=[[UIImageView alloc]initWithFrame:CGRectMake(10, 5, 35, 35)];
+       // self.imageIcon.backgroundColor=[UIColor redColor];
+        self.titleName=[[UILabel alloc]initWithFrame:CGRectMake(70, 5, 80, 30)];
+      // [self.titleName setBackgroundColor:[UIColor greenColor]];
+        self.titleName.font=[UIFont systemFontOfSize:12];
+        self.titleName.textAlignment=NSTextAlignmentCenter;
+        self.isinfo=[[UILabel alloc]initWithFrame:CGRectMake(200,5,80,30)];
         self.isinfo.font=[UIFont systemFontOfSize:12];
-        self.isinfo.textAlignment=NSTextAlignmentCenter;
-        [self.contentView addSubview:self.isinfo];
+        self.btn=[[UIImageView alloc]initWithFrame:CGRectMake(278, 11, 22, 22)];
         [self.contentView addSubview:self.btn];
+        [self.contentView addSubview:self.isinfo];
+        [self.contentView addSubview:self.titleName];
+        [self.contentView addSubview:self.imageIcon];
         // Initialization code
     }
     return self;

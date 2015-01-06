@@ -188,7 +188,8 @@ extern int isnetwork;
     MyLineCell *cell = [tableView dequeueReusableCellWithIdentifier:cellName];
     if (cell == nil)
     {
-        cell = [[[NSBundle mainBundle]loadNibNamed:@"MyLineCell" owner:self options:nil]lastObject];
+//        cell = [[[NSBundle mainBundle]loadNibNamed:@"MyLineCell" owner:self options:nil]lastObject];
+        cell=[[MyLineCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellName];
         cell.selectionStyle = UITableViewCellSelectionStyleGray;
         cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
     }

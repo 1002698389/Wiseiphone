@@ -11,6 +11,7 @@
 #import "SocketServer.h"
 #import "Getrules.h"
 #import "yShi.h"
+#define VERSION [[UIDevice currentDevice] systemVersion]
 extern int isinterest;
 @implementation AppDelegate
 {
@@ -39,21 +40,21 @@ extern int isinterest;
         [[Getrules shareRules]deleteoriginfo];
         isinterest=0;
     }
-
+    NSLog(@"当前版本号=%@", VERSION);
     self.window.rootViewController=yu;
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
-    imageview=[[UIImageView alloc]initWithFrame:CGRectMake(0, 0,SCREEN_WIDTH , SCREEN_HEIGHT)];
-    imageview.image=[UIImage imageNamed:@"JKAloginBg.png"];
-    [[application keyWindow] addSubview:imageview];
-    [self performSelector:@selector(removetitle) withObject:self afterDelay:1];
+//    imageview=[[UIImageView alloc]initWithFrame:CGRectMake(0, 0,SCREEN_WIDTH , SCREEN_HEIGHT)];
+//    imageview.image=[UIImage imageNamed:@"JKAloginBg.png"];
+//    [[application keyWindow] addSubview:imageview];
+//    [self performSelector:@selector(removetitle) withObject:self afterDelay:1];
     return YES;
 }
-- (void)removetitle{
-
-    [imageview removeFromSuperview];
-
-}
+//- (void)removetitle{
+//
+//    [imageview removeFromSuperview];
+//
+//}
 - (void)applicationWillResignActive:(UIApplication *)application
 {
     NSUserDefaults * usf=[NSUserDefaults standardUserDefaults];

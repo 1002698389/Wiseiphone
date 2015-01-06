@@ -36,7 +36,7 @@ extern NSMutableArray * idxpaths;
     NSMutableDictionary *dict;
     NSMutableArray * _index;
     NSMutableArray * _namearr;
-    MyNavigationBar *mnb;
+    //MyNavigationBar *mnb;
     NSMutableArray * indexpaths;
 }
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
@@ -140,36 +140,32 @@ extern NSMutableArray * idxpaths;
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     static NSString *cellName = @"cell";
-    MyLineCell *cell = [tableView dequeueReusableCellWithIdentifier:cellName];
+   MyLineCell *cell = [tableView dequeueReusableCellWithIdentifier:cellName];
     if (cell == nil)
     {
-        cell = [[[NSBundle mainBundle]loadNibNamed:@"MyLineCell" owner:self options:nil]lastObject];
-        
-        cell.btn=[[UIImageView alloc]initWithFrame:CGRectMake(278, 11, 22, 22)];
+       // cell = [[[NSBundle mainBundle]loadNibNamed:@"MyLineCell" owner:self options:nil]lastObject];
+        cell=[[MyLineCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellName];
        
-        [cell.btn setImage:[UIImage imageNamed:@"JKAselectOff.png"]];
-        
-        
-        [cell.contentView addSubview:cell.btn];
        
     }
-//    if ([idxpaths containsObject:indexPath]) {
-//        cell.selected=YES;
-//        cell.btn.selected=YES;
-//        [cell.btn setImage:[UIImage imageNamed:@"JKAselectOn.png"] forState:UIControlStateSelected];
-//    }
+    if ([indexpaths containsObject:indexPath]) {
+        [cell setSelected:YES];
+        [cell.btn setImage:[UIImage imageNamed:@"JKAselectOn.png"]];
+    }else{
+        cell.selected=NO;
+         [cell.btn setImage:[UIImage imageNamed:@"JKAselectOff.png"]];
+    }
+    NSLog(@"cellselect=%d",cell.selected);
     [cell.imageIcon setImage:[UIImage imageNamed:@"JKAiconCamera.png"]];
     NSString * string=[[[_titleArray objectAtIndex:indexPath.section] objectForKey:@"contents"] objectAtIndex:indexPath.row];
     NSArray * array=[string componentsSeparatedByString:@"."];
     NSString * chname=[array objectAtIndex:0];
     int status=[[array objectAtIndex:2] intValue];
-    cell.isinfo=[[UILabel alloc]init];
-    cell.isinfo.frame=CGRectMake(200,5,80,30);
-    cell.isinfo.font=[UIFont systemFontOfSize:12];
-    [cell.contentView addSubview:cell.isinfo];
+  
     if (status>=515) {
          cell.isinfo.text=@"有信号";
         cell.isinfo.textColor=[UIColor blackColor];
+        cell.userInteractionEnabled=YES;
         
     }else{
          cell.isinfo.text=@"无信号";
