@@ -87,7 +87,7 @@ extern NSMutableArray * idxpaths;
     NSMutableArray * widths;
     NSMutableArray *heights;
     NSMutableArray *channels;
-    NSMutableArray *curren;
+//    NSMutableArray *curren;
 //    KxMovieViewController * video1;
 //    KxMovieViewController * video2;
 //    KxMovieViewController * video3;
