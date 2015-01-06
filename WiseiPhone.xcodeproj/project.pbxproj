@@ -82,6 +82,8 @@
 		1DB67CD81A0760D6001BCB4F /* Shape.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DB67CD71A0760D6001BCB4F /* Shape.m */; };
 		1DB75E6319E7A76200DA1347 /* 51智能设置已有规则-加号_07.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DB75E6119E7A76200DA1347 /* 51智能设置已有规则-加号_07.png */; };
 		1DB75E6419E7A76200DA1347 /* 51智能设置已有规则-减号_03.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DB75E6219E7A76200DA1347 /* 51智能设置已有规则-减号_03.png */; };
+		1DBB38261A5BC449005085C5 /* A0506_02.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DBB38251A5BC449005085C5 /* A0506_02.png */; };
+		1DBB38281A5BC686005085C5 /* B0506_02.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DBB38271A5BC686005085C5 /* B0506_02.png */; };
 		1DBDE56D1A3D3C0D00FB630A /* ruletable.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 1DBDE56C1A3D3C0D00FB630A /* ruletable.sqlite */; };
 		1DC5DDAD19E63B1900C22C3E /* tiker_img_2 .png in Resources */ = {isa = PBXBuildFile; fileRef = 1DC5DDAC19E63B1900C22C3E /* tiker_img_2 .png */; };
 		6319C11F19597429000A8456 /* QCheckBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 6319C11E19597429000A8456 /* QCheckBox.m */; };
@@ -348,6 +350,8 @@
 		1DB67CD71A0760D6001BCB4F /* Shape.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Shape.m; sourceTree = "<group>"; };
 		1DB75E6119E7A76200DA1347 /* 51智能设置已有规则-加号_07.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "51智能设置已有规则-加号_07.png"; sourceTree = "<group>"; };
 		1DB75E6219E7A76200DA1347 /* 51智能设置已有规则-减号_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "51智能设置已有规则-减号_03.png"; sourceTree = "<group>"; };
+		1DBB38251A5BC449005085C5 /* A0506_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = A0506_02.png; sourceTree = "<group>"; };
+		1DBB38271A5BC686005085C5 /* B0506_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = B0506_02.png; sourceTree = "<group>"; };
 		1DBDE56C1A3D3C0D00FB630A /* ruletable.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = ruletable.sqlite; sourceTree = "<group>"; };
 		1DC5DDAC19E63B1900C22C3E /* tiker_img_2 .png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tiker_img_2 .png"; sourceTree = "<group>"; };
 		6319C11D19597429000A8456 /* QCheckBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QCheckBox.h; sourceTree = "<group>"; };
@@ -910,6 +914,8 @@
 				63AF1F441945906800C8161F /* JKbottomJJ2right.png */,
 				63AF1F451945906800C8161F /* JKbottomJJleft.png */,
 				63AF1F461945906800C8161F /* JKbottomJJright.png */,
+				1DBB38251A5BC449005085C5 /* A0506_02.png */,
+				1DBB38271A5BC686005085C5 /* B0506_02.png */,
 			);
 			path = images;
 			sourceTree = "<group>";
@@ -1271,6 +1277,7 @@
 				63AF1F831945906800C8161F /* JKAsearchBg.png in Resources */,
 				63AF1F8E1945906800C8161F /* JKbottomJJ2right.png in Resources */,
 				63AF1F631945906800C8161F /* JKAbottomYT.png in Resources */,
+				1DBB38281A5BC686005085C5 /* B0506_02.png in Resources */,
 				63AF1F4F1945906800C8161F /* JKAbottom2D.png in Resources */,
 				63AF1F7A1945906800C8161F /* JKAmoreBF.png in Resources */,
 				63AF1F821945906800C8161F /* JKApositionUp.png in Resources */,
@@ -1334,6 +1341,7 @@
 				63AF1F511945906800C8161F /* JKAbottom2E.png in Resources */,
 				1DA797FE19907DEB0076818C /* 区域计数.png in Resources */,
 				1D6B28941988B8B800EB3E86 /* 区域计数1.mp4 in Resources */,
+				1DBB38261A5BC449005085C5 /* A0506_02.png in Resources */,
 				63AF1F801945906800C8161F /* JKApositionLeft.png in Resources */,
 				1D6B28981988B8B800EB3E86 /* 徘徊1.mp4 in Resources */,
 				63AF1F541945906800C8161F /* JKAbottomBJ.png in Resources */,
